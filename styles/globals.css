@@ -1,3 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+  background: #f8f8ff;
+  color: #222;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #4b0082;
+  margin-bottom: 2rem;
+}
+
+.block {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+audio {
+  width: 100%;
+  margin-top: 0.5rem;
+}
